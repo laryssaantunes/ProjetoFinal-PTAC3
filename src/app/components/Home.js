@@ -14,6 +14,7 @@ const Home = () => {
                             <p>Autor: {livro.autor}</p>
                             <p>Ano de Publicação: {livro.anoPublicacao}</p>
                             <p>Gênero: {livro.genero}</p>
+                            <p><strong>ID:</strong> {livro.id}</p>
                         </div>
                     </li>
                 ))}

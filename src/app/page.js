@@ -1,13 +1,11 @@
-import Image from "next/image";
-import "./styles.css";
-import Link from "next/link";
-import Home from '../components/Home';
+import HomeComponent from './components/Home';
+import Loading from './components/Loading';
 
 export default function Home() {
-
   return (
     <div>
-    <Home />
+      <HomeComponent />
+      <Loading/>
     </div>
   );
 }

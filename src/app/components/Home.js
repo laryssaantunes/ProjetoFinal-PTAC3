@@ -1,7 +1,7 @@
 import { listaDeLivros } from "../api/route";
 
 // Componente funcional para renderizar a lista de livros na Home
-const Home = () => {
+const HomeComponent = () => {
     return (
         <div>
             <h1>Bem-vindo à nossa Livraria</h1>
@@ -23,4 +23,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default HomeComponent;

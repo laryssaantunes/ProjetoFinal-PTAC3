@@ -12,9 +12,8 @@ const HomeComponent = () => {
                     <li key={livro.id}>
                         <div>
                         <img src={livro.imagem} alt={livro.titulo} style={{ maxWidth: '100px', maxHeight: '150px', marginRight: '10px' }} />
-                        </div>
-                        
-                        <div>
+</div>
+                        <div >
 
                             <h2>{livro.titulo}</h2>
                             <p>Autor: {livro.autor}</p>

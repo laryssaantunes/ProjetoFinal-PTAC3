@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "./Loading.css";
+import  "./Loading.css";
 export default function Loading() {
     return(
         < div className="loading-container">

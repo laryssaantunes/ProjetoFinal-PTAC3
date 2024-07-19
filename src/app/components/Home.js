@@ -10,7 +10,7 @@ const HomeComponent = () => {
             <ul>
                 {listaDeLivros.map(livro => (
                     <li key={livro.id}>
-                        <div>
+                        <div className="card-image">
                         <img src={livro.imagem} alt={livro.titulo} style={{ maxWidth: '100px', maxHeight: '150px', marginRight: '10px' }} />
 </div>
                         <div >

@@ -1,0 +1,74 @@
+/* HomeComponent.css */
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o título da página */
+h1 {
+    text-align: center;
+    color: #bb1174;
+    margin-bottom: 20px;
+}
+
+/* Lista de livros */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre os cards */
+}
+
+li {
+    flex: 1 1 calc(33.333% - 20px); /* Três cards por linha com espaço */
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #e2a4a7;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    transition: transform 0.2s ease;
+}
+
+li:hover {
+    transform: scale(1.02); /* Efeito de hover */
+}
+
+li img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+li div {
+    padding: 15px;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+    color: #000000;
+}
+
+p {
+    margin: 5px 0;
+    color: #000000;
+}
+
+strong {
+    color: #000;
+}
+
+/* Container da imagem dentro do card */
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+    background-color: #e4869a;
+}
+

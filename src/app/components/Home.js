@@ -1,9 +1,27 @@
+'use client'
+import React, { useState, useEffect } from 'react';
 import { listaDeLivros } from "../api/route";
-import Home from "../page";
 import "./Home.css";
+import Loading from "./Loading";
 
 // Componente funcional para renderizar a lista de livros na Home
 const HomeComponent = () => {
+    const [data, setData] = useState(null);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        // Simulando a busca de dados
+        setTimeout(() => {
+          setData(listaDeLivros);
+          setLoading(false);
+        }, 2000);
+      }, []);
+    
+      if (loading) {
+        return <Loading />;
+      }
+
+
     return (
         <div className="container">
             <h1>Bem-vindo à nossa Livraria</h1>

@@ -19,7 +19,7 @@ const HomeComponent = () => {
           setLoading(false);
 
     // Forçando um erro para testar o componente ErroGetFetch
-     /* try {
+     /*try {
         throw new Error("Erro forçado na busca de dados");
         setData(listaDeLivros);
         setLoading(false);

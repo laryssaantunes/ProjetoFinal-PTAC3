@@ -1,4 +1,4 @@
-// File: C:\Users\escola\Documents\GitHub\ProjetoFinal-PTAC3\src\app\[id]\route.js
+// File: C:\Users\laboratorio\Downloads\aspkd´pd\ProjetoFinal-PTAC3\src\app\[id]\route.js
 import * as entry from '../../../../src/app/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 

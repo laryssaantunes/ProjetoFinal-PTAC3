@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #bd79bc;
+}
+
+.cordefundo {
+    color:#db22c3;
+    background-color: #981580;
+}
+
+
+.imagem {
+    font-size: 1.5em;
+    color: #db22c3;
+    margin: 20px 0;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.nome {
+    font-size: 1.5em;
+    color: #db22c3;
+    margin: 20px ;
+    text-align: center;
+}
+
+
+.button {
+    background-color: #db22c3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px ;
+}

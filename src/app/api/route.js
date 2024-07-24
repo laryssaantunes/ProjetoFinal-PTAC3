@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";  // Importa NextResponse para criar respostas HTTP
 
 export const listaDeLivros = [
     {

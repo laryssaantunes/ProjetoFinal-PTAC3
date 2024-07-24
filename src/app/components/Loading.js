@@ -2,6 +2,8 @@ import Image from "next/image";
 import  "./Loading.css";
 export default function Loading() {
     return(
+
+          // Container principal para centralizar a imagem de carregamento
         < div className="loading-container">
         <Image
         width={90}
